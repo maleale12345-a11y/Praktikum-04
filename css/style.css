@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 900px;
+    margin: 8px auto;
+    padding: 10px 18px 24px;
+    border: 5px double #c9a76b;
+    background-color: #f5f5dc;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+#header {
+    margin: 0 -8px 12px;
+    text-align: center;
+}
+
+#header h1 {
+    margin: 0 0 8px;
+    color: #102ca5;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+#header blockquote {
+    margin: 0 8px;
+    padding: 8px 12px;
+    background-color: #ffd900;
+    font-size: 0.9em;
+    line-height: 1.25;
+}
+
+#soekarno {
+    display: block;
+}
+
+#header + div {
+    text-align: center;
+}
+
+#header + div ul {
+    margin: 0 0 12px;
+    padding: 0;
+    list-style: none;
+}
+
+#header + div li {
+    display: inline;
+    margin: 0 3px;
+}
+
+#header + div a {
+    color: #514078;
+    font-size: 0.9em;
+}
+
+.gambar {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 12px 0 18px;
+    text-align: center;
+}
+
+.gambar img {
+    width: 100px;
+    max-width: 45%;
+    height: 106px;
+    object-fit: cover;
+}
+
+.isi {
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.isi p {
+    margin: 0 0 10px;
+}
+
+.isi p:first-child::first-letter {
+    float: left;
+    margin: 0 2px 0 0;
+    color: #1737c2;
+    font-size: 3.2em;
+    line-height: 0.8;
+}
+
+#profil,
+#beternak,
+.koleksi,
+.promo {
+    margin-top: 24px;
+}
+
+#profil h3,
+#beternak h3 {
+    color: #1737a5;
+}
+
+#profil ul,
+#beternak ol,
+.promo ol {
+    padding-left: 24px;
+    line-height: 1.5;
+}
+
+.koleksi {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.koleksi img {
+    width: 100px;
+    max-width: 45%;
+    height: 106px;
+    object-fit: cover;
+}
+
+.promo {
+    padding: 14px;
+    background-color: #fff0a8;
+    text-align: center;
+}
+
+.promo h2,
+.promo h3 {
+    color: #1737a5;
+}
+
+#Wa {
+    font-weight: bold;
+}
+
+@media (max-width: 520px) {
+    body {
+        margin: 4px;
+        padding: 10px;
+    }
+
+    #header h1 {
+        font-size: 1.7em;
+    }
+}
